@@ -1,0 +1,217 @@
+body{
+    background: url('http://img3.wikia.nocookie.net/__cb7/simpsons/it/images/5/50/Wiki-background');
+      
+}
+
+*{
+    font-family: 'Architects Daughter', cursive;        
+}
+.game{
+    margin:10% 0 0 35%;
+}
+
+.square{
+height: 162px;
+width: 162px;
+border: 1px solid black;
+display: inline-block;
+margin: -2px;
+}
+.upperSq{
+    display: inline-block;
+}
+.circle{
+    height: 162px;
+    width: 162px;
+    margin: 86px 0 0 92px;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid black;
+    background: rgb(175, 163, 163);
+    
+}
+.s1 {
+    background: rgb(207, 159, 0);
+    border-top-left-radius: 35px;
+    border: 10px solid black;
+    
+}
+.s2 {
+    background: rgb(0, 129, 199);
+    border-top-right-radius: 35px;
+    border: 10px solid black;
+    
+}
+.s3 {
+    background: rgb(199, 0, 93);
+    border-bottom-left-radius: 35px;
+    border: 10px solid black;
+    
+}
+.s4 {
+    background: rgb(0, 184, 168);
+    border-bottom-right-radius: 35px;
+    border: 10px solid black;
+    
+}
+
+.s1:active {
+    background: rgb(255, 219, 112);
+    border-top-left-radius: 35px;
+    
+}
+.s2:active {
+    background: rgb(115, 197, 241);
+    border-top-right-radius: 35px;
+    
+}
+.s3:active {
+    background: rgb(255, 114, 180);
+    border-bottom-left-radius: 35px;
+    
+}
+.s4:active {
+    background: rgb(194, 255, 249);
+    border-bottom-right-radius: 35px;
+    
+}
+
+.s1high {
+    background: rgb(255, 219, 112);
+    border-top-left-radius: 35px;
+    
+}
+.s2high {
+    background: rgb(115, 197, 241);
+    border-top-right-radius: 35px;
+    
+}
+.s3high {
+    background: rgb(255, 114, 180);
+    border-bottom-left-radius: 35px;
+    
+}
+.s4high {
+    background: rgb(194, 255, 249);
+    border-bottom-right-radius: 35px;
+    
+}
+
+.start{
+    display: block;
+    margin-left: 40%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 7px;
+    margin-top: 2px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.start:active{
+    border: 2px solid grey;
+}
+
+.strict{
+    display: block;
+    margin-left: 40%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 7px;
+    margin-top: 2px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.strict:active{
+    border: 2px solid grey;
+}
+
+.label{
+    position: absolute;
+    display: inline;
+    margin-left: 11px; 
+}
+
+.screen{
+    margin-left: 31%;
+    margin-bottom: 2px;    
+    width: 60px;
+    height: 50px;
+    margin-top: 2px;
+    background-color: rgb(199, 0, 93);
+    border: 1px solid; 
+    
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 50px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+      display:none;
+    }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(0, 184, 168);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .stepsCount{
+    text-align: center;
+    color: wheat;
+  }

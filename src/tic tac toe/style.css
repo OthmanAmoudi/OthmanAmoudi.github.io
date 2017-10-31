@@ -1,0 +1,230 @@
+body{
+    background:rgb(248, 248, 248);
+    text-transform: capitalize;
+    font-family: 'Architects Daughter', cursive;    
+}
+
+.game{
+    width:433px;
+    height: 433px;
+}
+
+.board{
+    align-items: center;
+    align-content: center;
+    height: 399px;
+    width: 399px;
+    margin: auto;
+    margin-top: 10px;    
+}
+
+/* .restart{
+
+
+} */
+/* .restart{
+    border: 2px solid rgb(201, 23, 23);
+    display: inline-flex;
+    height: 149px;
+    width: 299px;
+    left: 38%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom:-82px; 
+    
+} */
+
+/* .extraline{
+    border: 2px solid rgb(23, 201, 47);
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    height: 149px;
+    width: 299px;
+    background-color: rgb(255, 255, 255);
+    
+} */
+.chose{
+    /* text-transform: capitalize;
+    color: rgb(201, 23, 23);
+    border: 8px solid rgb(41, 168, 62);
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    height: 349px;
+    width: 299px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;   
+    margin-left: 53px;  */
+}
+
+
+img{
+    height: 60px;
+    width: 60px;
+    margin: 29px 0 0 29px;
+}
+.center {
+    margin: auto;
+    width: 40%;
+    margin-top: 93px;    
+}
+
+
+.square{
+   border: 5px solid rgb(201, 23, 23); 
+   float: left;
+   width:120px;
+   height:120px;
+   overflow:hidden;
+}
+
+.squarex {
+    border: 6px solid red; 
+      float:left;
+      position: relative;
+      width: 400px;
+      height: 1px;
+      padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+      background-position:center center;
+      background-repeat:no-repeat;
+      background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+      margin-top: -4px;
+      
+    }
+    .x2{
+        border: 6px solid green;
+        height: 80px;
+        width: 400px;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    #rec1{
+        border: 5px solid rgb(41, 168, 62);
+        border-top-color: rgb(248, 248, 248); 
+        border-left-color: rgb(248, 248, 248);
+        border-bottom-color: rgb(218, 172, 25); 
+        
+    }
+
+    #rec2{
+        border: 5px solid rgb(218, 172, 25);        
+        border-top-color: rgb(248, 248, 248);
+        border-right-color: rgb(137, 60, 153); 
+        border-bottom-color: rgb(113, 216, 54); 
+        
+    }
+    #rec3{
+        border-top-color: rgb(248, 248, 248); 
+        border-right-color: rgb(248, 248, 248);
+        border-bottom-color: rgb(153, 60, 77); 
+        
+    }
+    #rec4{
+        border-left-color: rgb(248, 248, 248);
+        border-bottom-color: rgb(248, 248, 248); 
+        border-right-color: rgb(153, 60, 77);
+        border-top-color: rgb(0, 162, 211); 
+        
+    }
+    #rec5{
+        border-bottom-color: rgb(248, 248, 248); 
+        border-right-color: rgb(39, 131, 173);
+        border-top-color: rgb(176, 0, 211); 
+        border-left-color: rgb(68, 187, 161);
+        text-align: center;
+        color: rgb(209, 16, 16);
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    #rec6{
+        border-right-color: rgb(248, 248, 248);
+        border-bottom-color: rgb(248, 248, 248); 
+        border-left-color: rgb(236, 202, 48);
+        border-top-color: rgb(36, 128, 233);
+        
+        
+    }
+
+.restart{
+position: absolute;
+text-align: center;
+margin-top:40px; 
+left: 35%;
+background-color: rgba(236, 201, 48, 0.575);
+height: 190px;
+width: 322px;
+border: 2px solid rgb(0, 0, 0);
+}
+
+.choseSq{
+    border-radius: 22px;
+    margin: auto;
+    width: 100px;
+    padding-bottom: 25px;
+    padding-right: 27px;
+    display: inline;
+}
+.choseSq:hover{
+    background-color: rgb(255, 223, 223);
+}
+
+
+.sq0{
+    border: 5px solid rgb(25, 116, 103);
+    border-top-color: rgb(248, 248, 248);
+    border-left-color: rgb(248, 248, 248);
+}
+
+.sq1{
+    border: 5px solid rgb(39, 131, 173);
+    border-top-color: rgb(248, 248, 248);
+    
+}
+
+.sq2{
+    border: 5px solid rgb(236, 202, 48);
+    border-top-color: rgb(248, 248, 248);
+    border-right-color: rgb(248, 248, 248);
+    
+}
+
+.sq3{
+    border: 5px solid rgb(151, 153, 60);
+    border-left-color: rgb(248, 248, 248);
+    
+}
+
+.sq4{
+    border: 5px solid rgb(153, 60, 77);
+    
+}
+
+.sq5{
+    border: 5px solid rgb(60, 69, 153);
+    border-right-color: rgb(248, 248, 248);
+    
+}
+
+.sq6{
+    border: 5px solid rgb(137, 60, 153);
+    border-left-color: rgb(248, 248, 248);
+    border-bottom-color: rgb(248, 248, 248);
+    
+}
+
+.sq7{
+    border: 5px solid rgb(218, 172, 25);
+    border-bottom-color: rgb(248, 248, 248);
+    
+}
+
+.sq8{
+    border: 5px solid rgb(41, 168, 62);
+    border-right-color: rgb(248, 248, 248);
+    border-bottom-color: rgb(248, 248, 248);
+    
+}
+
+
