@@ -1,7 +1,8 @@
-pig game javascript (No Jquery)
+pig game javascript vanilla javascript (No Jquery)
 
 ![thumbnail](https://github.com/OthmanAmoudi/pig-game-pure-javascript/blob/master/Screen%20Shot%202018-07-03%20at%204.08.10%20PM.png)
 
+[Try Demo](https://www.roketman.com/JavascriptPigGame/index.html?)
 
 GAME RULES:
 - The game has 2 players, playing in rounds
