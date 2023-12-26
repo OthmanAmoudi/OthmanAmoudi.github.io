@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px 0px 40px 23px rgba(214, 224, 240, 0.25);
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 0.25rem;
   }
   
